@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Report generation]]>
+    </line>
+    <line>
+      <![CDATA[script1]]>
+    </line>
+    <line>
+      <![CDATA[Test script execution started]]>
+    </line>
+    <line>
+      <![CDATA[Report]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-07-14T23:35:42 BST" name="Default suite" finished-at="2024-07-14T23:36:04 BST" duration-ms="21633">
+    <groups>
+    </groups>
+    <test started-at="2024-07-14T23:35:42 BST" name="Default test" finished-at="2024-07-14T23:36:04 BST" duration-ms="21633">
+      <class name="Script_vTiger.Script1">
+        <test-method is-config="true" signature="beforesuite()[pri:0, instance:Script_vTiger.Script1@5aebe890]" started-at="2024-07-14T23:35:41 BST" name="beforesuite" finished-at="2024-07-14T23:35:42 BST" duration-ms="966" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Report generation]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforesuite -->
+        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:Script_vTiger.Script1@5aebe890]" started-at="2024-07-14T23:35:42 BST" name="beforeClass" finished-at="2024-07-14T23:36:03 BST" duration-ms="21224" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.io.FileNotFoundException">
+            <message>
+              <![CDATA[.\src\test\resources\commonData.properties (The system cannot find the file specified)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.io.FileNotFoundException: .\src\test\resources\commonData.properties (The system cannot find the file specified)
+at java.base/java.io.FileInputStream.open0(Native Method)
+at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+at java.base/java.io.FileInputStream.<init>(FileInputStream.java:111)
+at genericlibr.ExcelUtil.getDataFromPropertyfile(ExcelUtil.java:22)
+at genericlibr.BaseClass.beforeClass(BaseClass.java:68)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.io.FileNotFoundException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:Script_vTiger.Script1@5aebe890]" started-at="2024-07-14T23:36:04 BST" name="beforeMethod" finished-at="2024-07-14T23:36:04 BST" duration-ms="30" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Script_vTiger.Script1.script1() throws org.apache.poi.EncryptedDocumentException,java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.io.FileNotFoundException">
+            <message>
+              <![CDATA[.\src\test\resources\commonData.properties (The system cannot find the file specified)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.io.FileNotFoundException: .\src\test\resources\commonData.properties (The system cannot find the file specified)
+at java.base/java.io.FileInputStream.open0(Native Method)
+at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+at java.base/java.io.FileInputStream.<init>(FileInputStream.java:111)
+at genericlibr.ExcelUtil.getDataFromPropertyfile(ExcelUtil.java:22)
+at genericlibr.BaseClass.beforeMethod(BaseClass.java:78)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.io.FileNotFoundException -->
+          <reporter-output>
+            <line>
+              <![CDATA[script1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="script1()[pri:0, instance:Script_vTiger.Script1@5aebe890]" started-at="2024-07-14T23:36:04 BST" name="script1" finished-at="2024-07-14T23:36:04 BST" duration-ms="0" status="SKIP">
+          <exception class="java.io.FileNotFoundException">
+            <message>
+              <![CDATA[.\src\test\resources\commonData.properties (The system cannot find the file specified)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.io.FileNotFoundException: .\src\test\resources\commonData.properties (The system cannot find the file specified)
+at java.base/java.io.FileInputStream.open0(Native Method)
+at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+at java.base/java.io.FileInputStream.<init>(FileInputStream.java:111)
+at genericlibr.ExcelUtil.getDataFromPropertyfile(ExcelUtil.java:22)
+at genericlibr.BaseClass.beforeClass(BaseClass.java:68)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.io.FileNotFoundException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- script1 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Script_vTiger.Script1@5aebe890]" started-at="2024-07-14T23:36:04 BST" name="afterMethod" finished-at="1970-01-01T01:00:00 GMT" duration-ms="-1720996564157" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:Script_vTiger.Script1@5aebe890]" started-at="2024-07-14T23:36:04 BST" name="afterClass" finished-at="1970-01-01T01:00:00 GMT" duration-ms="-1720996564172" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:Script_vTiger.Script1@5aebe890]" started-at="2024-07-14T23:36:04 BST" name="afterSuite" finished-at="2024-07-14T23:36:07 BST" duration-ms="2256" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Report]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- Script_vTiger.Script1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
